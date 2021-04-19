@@ -1,6 +1,6 @@
 ### WIP Uri parser & builder
 
-```rs
+```rust
 let uri = lib::parse("https://yesman@www.youtube.com:80/?v=12345678#tag").unwrap();
 
 println!("{:?}", uri.scheme()); // "https"
